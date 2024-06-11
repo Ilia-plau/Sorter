@@ -34,7 +34,7 @@ public:
 
 	void Update(float box_x,float box_y,float box_width,float box_height) {
 
-		if (IsKeyDown(KEY_W) && EventTriggered(0.15) && ball_y-100>=25 && ball_y-50 != (2 * box_y + box_height)/2 && ball_x-25==box_x && ball_x+25==box_width && ball_y+25==box_y+box_height+50) {
+		if (IsKeyDown(KEY_W) && EventTriggered(0.15) && ball_y-100>=25 && ball_y-25 >= box_y+box_height && ball_x-25>=box_x && ball_x+25<=box_x+box_width && ball_y+25<=box_y+box_height+50) {
 			ball_y -= speed;
 			
 		}
