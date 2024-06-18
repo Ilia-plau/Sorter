@@ -23,22 +23,34 @@ bool EventTriggered(double interval)
 
 class Ball {
 public:
+
+	Texture2D texture;
 	float ball_x;
 	float ball_y;
 	int ball_radius;
 	int speed = 50;
 
+	Ball() {
+		texture = LoadTexture(".\\box.png");
+	}
+
 	void Draw() {
-		DrawCircle(ball_x, ball_y, ball_radius, BLACK);
+		DrawCircle(ball_x, ball_y, ball_radius, WHITE);
+		//DrawTexture(texture,ball_x, ball_y,WHITE);
 	}
 
 	void Update(float box_x,float box_y,float box_width,float box_height) {
-
-		if (IsKeyDown(KEY_W) && EventTriggered(0.15) && ball_y-100>=25 && ball_y-25 >= box_y+box_height && ball_x-25>=box_x && ball_x+25<=box_x+box_width && ball_y+25<=box_y+box_height+50) {
+		if (IsKeyDown(KEY_W) && ball_y - 50 == (2 * box_y + box_height) / 2 && ball_x == (2 * box_x + box_width)/2) {
+			ball_y -= 10;
+		}
+		if (IsKeyDown(KEY_S) && ball_y - 40 == (2 * box_y + box_height) / 2 && ball_x == (2 * box_x + box_width) / 2) {
+			ball_y += 10;
+		}
+		if (IsKeyDown(KEY_W) && EventTriggered(0.15) && ball_y - 100 >= 25 ) {
 			ball_y -= speed;
 			
 		}
-		if (IsKeyDown(KEY_S) && EventTriggered(0.15) && ball_y + 50 <= 700) {
+		if (IsKeyDown(KEY_S) && EventTriggered(0.15) && ball_y + 50 <= 700 ) {
 			ball_y += speed;
 
 		}
@@ -64,16 +76,20 @@ public:
 };
 class Box {
 public:
+	Texture2D texture;
+	int tmp;
 	float box_x;
 	float box_y;
 	float box_width;
 	float box_height;
 	float speed = 50;
 
-
-
+	Box() {
+		texture = LoadTexture(".\\box.png");
+	}
+	
 	void Draw() {
-		DrawRectangle(box_x, box_y, box_width, box_height, BLACK);
+		DrawTexture(texture,box_x, box_y, WHITE);
 	}
 	void Update(float ball_x, float ball_y, float ball_radius) {
 	/*	if (ball_x - ball_radius <= box_x + box_width &&
@@ -151,35 +167,40 @@ public:
 
 int main()
 {
+
 	Color Dark_Green = Color{ 20, 160, 133, 255 };
 	const float screenWidth = 850;
 	const float screenHeight = 700;
+	InitWindow(screenWidth, screenHeight, "My first program!");
 	int score = 0;
 	Ball ball = Ball();
 	Box box = Box();
 
 	ball.ball_radius = 15;
 
-	InitWindow(screenWidth, screenHeight, "My first RAYLIB program!");
+	
 	SetTargetFPS(60);
 	box.Reset();
 	ball.Reset();
 	while (WindowShouldClose() == false)
 	{
+
 		
 		box.Update(ball.ball_x, ball.ball_y, ball.ball_radius);
 		ball.Update(box.box_x,box.box_y,box.box_width,box.box_height);
 		// Drawing
-		if (box.box_x >= 100 && box.box_x <= 250 && box.box_y >= 450 && box.box_y <= 600) {
+		if (box.box_x >= 50 && box.box_x <= 200 && box.box_y >= 450 && box.box_y <= 600) {
 			score += 1;
 			box.Reset();
 		}
+		
 		
 		DrawText(TextFormat("%i",score),162.5 ,12.5, 30, BLACK);
 		DrawText(TextFormat("%s", "score:"), 55 , 12.5, 30,BLACK);
 		DrawRectangle(100, 450, 150, 150, WHITE);
 		DrawRectangle(350, 450, 150,150, YELLOW);
 		DrawRectangle(600, 450, 150, 150, BROWN);
+
 		box.Draw();
 		ball.Draw();
 		ClearBackground(GREEN);
