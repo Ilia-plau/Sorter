@@ -41,22 +41,19 @@ public:
 	}
 
 	void Update(float box_x, float box_y, float box_width, float box_height) {
-		if (IsKeyDown(KEY_W) && EventTriggered(0.15) && ball_y - 50 >= 25) {
+		if (IsKeyDown(KEY_W) && EventTriggered(0.15) && ball_y - 100 >= 25) {
 			ball_y -= speed;
 
 		}
-		if (IsKeyDown(KEY_S) && EventTriggered(0.15) && ball_y +100 <= 700) {
+		if (IsKeyDown(KEY_S) && EventTriggered(0.15) && ball_y + 50 <= 700) {
 			ball_y += speed;
 
 		}
-		if (IsKeyDown(KEY_A) && EventTriggered(0.15) && ball_x  >= 25) {
+		if (IsKeyDown(KEY_A) && EventTriggered(0.15) && ball_x - 50 >= 25) {
 			ball_x -= speed;
 		}
-		if (IsKeyDown(KEY_D) && EventTriggered(0.15) && ball_x + 100 <= 850) {
+		if (IsKeyDown(KEY_D) && EventTriggered(0.15) && ball_x + 50 <= 850) {
 			ball_x += speed;
-		}
-		if (ball_y == 150 && ball_x < 200) {
-			ball_x += 0.5;
 		}
 		//cout << ball_x << "  " << ball_y << "    " << speed;
 		/*		if (ball_x - ball_radius <= 0 || ball_x + ball_radius >= GetScreenWidth()) {
@@ -75,84 +72,44 @@ public:
 };
 class Box {
 public:
-	Texture2D texture1,texture2,texture3;
+	Texture2D texture;
 	int tmp;
-	int count = 0;
 	float box_x;
 	float box_y;
 	float box_width;
 	float box_height;
 	float speed = 50;
-	int c = 1;
 
 	Box() {
-			texture1 = LoadTexture(".\\rbox.png");
-			texture2 = LoadTexture(".\\bbox.png");
-			texture3 = LoadTexture(".\\gbox.png");
-
+		texture = LoadTexture(".\\rbox.png");
 	}
 
 	void Draw() {
-		if (GetRandomType() == "rbox") {
-			DrawTexture(texture1, box_x, box_y, WHITE);
-		}
-		if (GetRandomType() == "bbox") {
-			DrawTexture(texture2, box_x, box_y, WHITE);
-		}
-		if (GetRandomType() == "gbox") {
-			DrawTexture(texture3, box_x, box_y, WHITE);
-		}
-
+		DrawTexture(texture, box_x, box_y, WHITE);
 	}
 	void Update(float ball_x, float ball_y, float ball_height,float ball_width) {
-		if ((2 * ball_y + ball_height) / 2 - 50 == (2 * box_y + box_height) / 2 && (2 * ball_x + ball_width) / 2 == (2 * box_x + box_width) / 2) {
-			if (IsKeyDown(KEY_W) && EventTriggered(0.15) && box_y - 100 >= 25) {
+		if ((2*ball_y+ ball_height)/2 == (2 * box_y + box_height) / 2 && (2 * ball_x + ball_width) / 2 == (2 * box_x + box_width) / 2) {
+			if (IsKeyDown(KEY_W) && EventTriggered(0.15) && ball_y - 100 >= 25) {
 				box_y -= speed;
+
 			}
-		}
-		if ((2 * ball_y + ball_height) / 2 +50== (2 * box_y + box_height)/ 2 && (2 * ball_x + ball_width) / 2 == (2 * box_x + box_width) / 2) {
-			if (IsKeyDown(KEY_S) && EventTriggered(0.15) && box_y + 150 <= 700) {
+			if (IsKeyDown(KEY_S) && EventTriggered(0.15) && ball_y + 50 <= 700) {
 				box_y += speed;
 			}
-		}
-		if((2 * ball_y + ball_height) / 2 == (2 * box_y + box_height) / 2 && (2 * ball_x + ball_width) / 2 -50== (2 * box_x + box_width) / 2){
-			if (IsKeyDown(KEY_A) && EventTriggered(0.15) && box_x - 50 >= 25) {
+			if (IsKeyDown(KEY_A) && EventTriggered(0.15) && ball_x - 50 >= 25) {
 				box_x -= speed;
 			}
-		}
-		if ((2 * ball_y + ball_height) / 2  == (2 * box_y + box_height) / 2 && (2 * ball_x + ball_width) / 2+50 == (2 * box_x + box_width) / 2) {
-			if (IsKeyDown(KEY_D) && EventTriggered(0.15) && box_x + 150 <= 850) {
+			if (IsKeyDown(KEY_D) && EventTriggered(0.15) && ball_x + 50 <= 850) {
 				box_x += speed;
 			}
 		}
-		if (box_x < 200 && box_y == 150) {
-			box_x += 0.5;
-		}
-		
 	}
-	
 		void Reset() {
-			box_x = 50;//GetScreenWidth() / 4 - 12;
-			box_y = 150;//(GetScreenHeight() - 50) / 4 - 12;
+			box_x = GetScreenWidth() / 4 - 12;
+			box_y = (GetScreenHeight() - 50) / 4 - 12;
 			box_width = 50;
 			box_height = 50;
 			speed = 50;
-			count = 0;
-		}
-		string GetRandomType() {
-			if (count == 0) {
-				tmp = GetRandomValue(1, 3);
-				count += 1;
-			}
-			if (tmp == 1) {
-				return "rbox";
-			}
-			if (tmp == 2) {
-				return "bbox";
-			}
-			if (tmp == 3) {
-				return "gbox";
-			}
 		}
 };
 class Background {
@@ -215,19 +172,8 @@ int main()
 		box.Update(ball.ball_x, ball.ball_y, ball.ball_height,ball.ball_width);
 		ball.Update(box.box_x,box.box_y,box.box_width,box.box_height);
 		// Drawing
-		if (box.box_x >= 100 && box.box_x <= 200 && box.box_y >= 450 && box.box_y <= 550 && box.GetRandomType() == "rbox") {
+		if (box.box_x >= 50 && box.box_x <= 200 && box.box_y >= 450 && box.box_y <= 600) {
 			score += 1;
-			box.count = 0;
-			box.Reset();
-		}
-		if (box.box_x >= 350 && box.box_x <= 450 && box.box_y >= 450 && box.box_y <= 550 && box.GetRandomType() == "bbox") {
-			score += 1;
-			box.count = 0;
-			box.Reset();
-		}
-		if (box.box_x >= 600 && box.box_x <= 700 && box.box_y >= 450 && box.box_y <= 550 && box.GetRandomType() == "gbox") {
-			score += 1;
-			box.count = 0;
 			box.Reset();
 		}
 		background.Draw();
