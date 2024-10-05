@@ -1,0 +1,22 @@
+﻿  Sorter2.cpp
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(50,34): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(50,23): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(72,36): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(73,44): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(92,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(92,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(95,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(95,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(98,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(98,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(212,84): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(212,60): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(227,26): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(227,13): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(239,49): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(239,42): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(240,44): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\Desktop\Sorter2\Sorter2\Sorter2\Sorter2.cpp(150,1): warning C4715: Box::GetRandomType: значение возвращается не при всех путях выполнения
+  Sorter2.vcxproj -> C:\Users\user\Desktop\Sorter2\Sorter2\x64\Debug\Sorter2.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
