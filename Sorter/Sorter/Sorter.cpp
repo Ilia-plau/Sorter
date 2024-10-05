@@ -21,61 +21,63 @@ bool EventTriggered(double interval)
 	return false;
 }
 
-class Ball {
+class Textures {
 public:
+	Texture2D boxr, boxb, boxg, plater, plateb, plateg, background, conveyor, loader;
+	Textures() {
+		loader = LoadTexture(".\\loader.png");
+		boxr = LoadTexture(".\\rbox.png");
+		boxb = LoadTexture(".\\bbox.png");
+		boxg = LoadTexture(".\\gbox.png");
+		plater = LoadTexture(".\\rrplate.png");
+		plateb = LoadTexture(".\\bbplate.png");
+		plateg = LoadTexture(".\\ggplate.png");
+		background = LoadTexture(".\\background.png");
+		conveyor = LoadTexture(".\\conveyor.png");
+	}
 
-	Texture2D texture1, texture2, texture3;
-	float ball_x;
-	float ball_y;
-	int ball_width=50;
-	int ball_height=50;
+};
+
+class Loaders : public Textures {
+public:
+	float loaders_x;
+	float loaders_y;
+	int loaders_width=50;
+	int loaders_height=50;
 	int speed = 50;
 
-	Ball() {
-		texture1 = LoadTexture(".\\loader.png");
-	}
-
 	void Draw() {
-		//DrawCircle(ball_x, ball_y, ball_radius, WHITE);
-		DrawTexture(texture1,ball_x, ball_y,WHITE);
-	}
+	DrawTexture(loader, loaders_x, loaders_y, WHITE);
+}
 
 	void Update(float box_x, float box_y, float box_width, float box_height) {
-		if (IsKeyDown(KEY_W) && EventTriggered(0.15) && ball_y - 50 >= 25) {
-			ball_y -= speed;
+		if (IsKeyDown(KEY_W) && EventTriggered(0.15) && loaders_y - 50 >= 25) {
+			loaders_y -= speed;
+		}
+		if (IsKeyDown(KEY_S) && EventTriggered(0.15) && loaders_y +100 <= 700) {
+			loaders_y += speed;
 
 		}
-		if (IsKeyDown(KEY_S) && EventTriggered(0.15) && ball_y +100 <= 700) {
-			ball_y += speed;
-
+		if (IsKeyDown(KEY_A) && EventTriggered(0.15) && loaders_x  >= 25) {
+			loaders_x -= speed;
 		}
-		if (IsKeyDown(KEY_A) && EventTriggered(0.15) && ball_x  >= 25) {
-			ball_x -= speed;
+		if (IsKeyDown(KEY_D) && EventTriggered(0.15) && loaders_x + 100 <= 850) {
+			loaders_x += speed;
 		}
-		if (IsKeyDown(KEY_D) && EventTriggered(0.15) && ball_x + 100 <= 850) {
-			ball_x += speed;
+		if (loaders_y == 150 && loaders_x < 200) {
+			loaders_x += 0.5;
 		}
-		if (ball_y == 150 && ball_x < 200) {
-			ball_x += 0.5;
-		}
-		//cout << ball_x << "  " << ball_y << "    " << speed;
-		/*		if (ball_x - ball_radius <= 0 || ball_x + ball_radius >= GetScreenWidth()) {
-					ball_x = 0;
-				}
-				if (ball_y - ball_radius <= 0 || ball_y + ball_radius >= GetScreenHeight()) {
-					ball_y = 0;
-				}*/
 	}
 	void Reset() {
-		ball_x = GetScreenWidth() / 2-25;
-		ball_y = (GetScreenHeight()-50) / 2-25;
+		loaders_x = GetScreenWidth() / 2-25;
+		loaders_y = (GetScreenHeight()-50) / 2-25;
 		speed = 50;
 
 	}
 };
-class Box {
+
+class Box : public Textures{
 public:
-	Texture2D texture1,texture2,texture3;
 	int tmp;
 	int count = 0;
 	float box_x;
@@ -85,22 +87,15 @@ public:
 	float speed = 50;
 	int c = 1;
 
-	Box() {
-			texture1 = LoadTexture(".\\rbox.png");
-			texture2 = LoadTexture(".\\bbox.png");
-			texture3 = LoadTexture(".\\gbox.png");
-
-	}
-
 	void Draw() {
 		if (GetRandomType() == "rbox") {
-			DrawTexture(texture1, box_x, box_y, WHITE);
+			DrawTexture(boxr, box_x, box_y, WHITE);
 		}
 		if (GetRandomType() == "bbox") {
-			DrawTexture(texture2, box_x, box_y, WHITE);
+			DrawTexture(boxb, box_x, box_y, WHITE);
 		}
 		if (GetRandomType() == "gbox") {
-			DrawTexture(texture3, box_x, box_y, WHITE);
+			DrawTexture(boxg, box_x, box_y, WHITE);
 		}
 
 	}
@@ -130,10 +125,9 @@ public:
 		}
 		
 	}
-	
 		void Reset() {
-			box_x = 50;//GetScreenWidth() / 4 - 12;
-			box_y = 150;//(GetScreenHeight() - 50) / 4 - 12;
+			box_x = 50;
+			box_y = 150;
 			box_width = 50;
 			box_height = 50;
 			speed = 50;
@@ -155,39 +149,74 @@ public:
 			}
 		}
 };
-class Background {
+
+class Background : public Textures {
 public:
-	Texture2D texture2;
-	Background() {
-		texture2 = LoadTexture(".\\background.png");
-	}
 	void Draw() {
-		DrawTexture(texture2, 0, 50, WHITE);
+		DrawTexture(background, 0, 50, WHITE);
+	}
+};
+
+class Plate : public Textures {
+public:
+	void Draw() {
+		DrawTexture(plater, 100, 450, WHITE);
+		DrawTexture(plateb, 350, 450, WHITE);
+		DrawTexture(plateg, 600, 450, WHITE);
+	}
+};
+
+class Conveyor : public Textures{
+public:
+	void Draw() {
+		DrawTexture(conveyor, 0, 150, WHITE);
+	}
+};
+
+class Game : public Box , public Loaders {
+public:
+	bool running = true;
+	Textures textures = Textures();
+	Loaders loaders = Loaders();
+	Box box = Box();
+	Plate plate = Plate();
+	Conveyor conveyor = Conveyor();
+	Background background = Background();
+	int score = 0;
+
+	void Draw() {
+		background.Draw();
+		conveyor.Draw();
+		plate.Draw();
+		box.Draw();
+		loaders.Draw();
 	}
 
-};
-class Plate {
-public:
-	Texture2D texture1, texture2, texture3;
-	Plate() {
-		texture1 = LoadTexture(".\\rrplate.png");
-		texture2 = LoadTexture(".\\bbplate.png");
-		texture3 = LoadTexture(".\\ggplate.png");
+	void Score() {
+		if (box.box_x >= 100 && box.box_x <= 200 && box.box_y >= 450 && box.box_y <= 550 && box.GetRandomType() == "rbox") {
+			score++;
+			box.Reset();
+		}
+		if (box.box_x >= 350 && box.box_x <= 450 && box.box_y >= 450 && box.box_y <= 550 && box.GetRandomType() == "bbox") {
+			score++;
+			box.Reset();
+		}
+		if (box.box_x >= 600 && box.box_x <= 700 && box.box_y >= 450 && box.box_y <= 550 && box.GetRandomType() == "gbox") {
+			score++;
+			box.Reset();
+		}
 	}
-	void Draw() {
-		DrawTexture(texture1, 100, 450, WHITE);
-		DrawTexture(texture2, 350, 450, WHITE);
-		DrawTexture(texture3, 600, 450, WHITE);
+
+	void Update(){
+		if (running) {
+			box.Update(loaders.loaders_x, loaders.loaders_y, loaders.loaders_height, loaders.loaders_width);
+			loaders.Update(box.box_x, box.box_y, box.box_width, box.box_height);
+		}
 	}
-};
-class Conveyor {
-public:
-	Texture2D texture;
-	Conveyor() {
-		texture = LoadTexture(".\\conveyor.png");
-	}
-	void Draw() {
-		DrawTexture(texture, 0, 150, WHITE);
+
+	void Reset() {
+		box.Reset();
+		loaders.Reset();
 	}
 };
 int main()
@@ -196,61 +225,19 @@ int main()
 	const float screenWidth = 850;
 	const float screenHeight = 700;
 	InitWindow(screenWidth, screenHeight, "My first program!");
-	int score = 0;
-	Ball ball = Ball();
-	Box box = Box();
-	Plate plate = Plate();
-	Conveyor conveyor = Conveyor();
-	Background background = Background();
+	Game game = Game();
 
-
-	
 	SetTargetFPS(60);
-	box.Reset();
-	ball.Reset();
+	game.Reset();
 	while (WindowShouldClose() == false)
 	{
 
-		
-		box.Update(ball.ball_x, ball.ball_y, ball.ball_height,ball.ball_width);
-		ball.Update(box.box_x,box.box_y,box.box_width,box.box_height);
-		// Drawing
-		if (box.box_x >= 100 && box.box_x <= 200 && box.box_y >= 450 && box.box_y <= 550 && box.GetRandomType() == "rbox") {
-			score += 1;
-			box.count = 0;
-			box.Reset();
-		}
-		if (box.box_x >= 350 && box.box_x <= 450 && box.box_y >= 450 && box.box_y <= 550 && box.GetRandomType() == "bbox") {
-			score += 1;
-			box.count = 0;
-			box.Reset();
-		}
-		if (box.box_x >= 600 && box.box_x <= 700 && box.box_y >= 450 && box.box_y <= 550 && box.GetRandomType() == "gbox") {
-			score += 1;
-			box.count = 0;
-			box.Reset();
-		}
-		background.Draw();
-		conveyor.Draw();
-		DrawText(TextFormat("%i",score),162.5 ,12.5, 30, BLACK);
-		DrawText(TextFormat("%s", "score:"), 55 , 12.5, 30,BLACK);
-		//DrawRectangle(100, 450, 150, 150, WHITE);
-		plate.Draw();
-		//DrawRectangle(350, 450, 150,150, YELLOW);
-		//DrawRectangle(600, 450, 150, 150, BROWN);
-		/*for (int i = 0;i <= 800;++i) {
-			if (i % 50 == 0) {
-				DrawLine(i, 50, i, screenHeight, WHITE);
-			}
-		};
-		for (int i = 50;i <= 650;++i) {
-			if (i % 50 == 0) {
-				DrawLine(0, i, screenWidth, i, WHITE);
-			}
-		};*/
-		box.Draw();
-		ball.Draw();
+		game.Update();
+		game.Score();
+		game.Draw();
 
+		DrawText(TextFormat("%i",game.score),162.5 ,12.5, 30, BLACK);
+		DrawText(TextFormat("%s", "score:"), 55 , 12.5, 30,BLACK);
 		ClearBackground(GREEN);
 		EndDrawing();
 
