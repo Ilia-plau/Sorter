@@ -1,0 +1,19 @@
+﻿  Sorter.cpp
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(40,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(40,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(67,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(68,38): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(88,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(88,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(108,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(109,41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(155,26): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(155,13): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(172,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(172,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(181,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(181,35): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Desktop\Pong\Sorter\Sorter\Sorter.cpp(182,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Sorter.vcxproj -> C:\Users\User\Desktop\Pong\Sorter\x64\Debug\Sorter.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.

@@ -1,0 +1,4 @@
+C:\Users\user\Desktop\Sorter\Sorter\x64\Debug\Sorter.exe
+C:\Users\user\Desktop\Sorter\Sorter\x64\Debug\Sorter.vcxproj.Up2Date
+C:\Users\User\Desktop\Pong\Sorter\Sorter\x64\Debug\Sorter.exe
+C:\Users\User\Desktop\Pong\Sorter\Sorter\x64\Debug\Sorter.vcxproj.CopyComplete
