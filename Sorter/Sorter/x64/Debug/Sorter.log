@@ -1,22 +1,4 @@
-﻿  Sorter.cpp
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(50,33): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(50,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(72,35): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(73,41): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(92,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(92,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(95,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(95,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(98,29): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(98,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(212,84): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(212,60): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(227,26): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(227,13): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(239,47): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(239,40): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(240,45): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\user\Desktop\Sorter\Sorter\Sorter.cpp(150,1): warning C4715: Box::GetRandomType: значение возвращается не при всех путях выполнения
+﻿  LINK : не найден или не выполнена сборка C:\Users\user\Desktop\Sorter\x64\Debug\Sorter.exe при последней инкрементной компоновке; выполняется полная компоновка
   Sorter.vcxproj -> C:\Users\user\Desktop\Sorter\x64\Debug\Sorter.exe
   "pwsh.exe" не является внутренней или внешней
   командой, исполняемой программой или пакетным файлом.
