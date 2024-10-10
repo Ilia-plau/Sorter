@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Sorter2\\Sorter2\\",
+  "WorkspaceRootPath": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Desktop\\Sorter2\\Sorter2\\Sorter2\\Sorter2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Sorter2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Sorter2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Sorter2.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Sorter2\\Sorter2\\Sorter2\\Sorter2.cpp",
+              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Sorter2.cpp",
               "RelativeDocumentMoniker": "Sorter2\\Sorter2.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Sorter2\\Sorter2\\Sorter2\\Sorter2.cpp",
+              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Sorter2.cpp",
               "RelativeToolTip": "Sorter2\\Sorter2.cpp",
-              "ViewState": "AQIAALUAAAAAAAAAAAAuwPYAAAABAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAuwPYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-05T19:37:38.826Z",
               "EditorCaption": ""
