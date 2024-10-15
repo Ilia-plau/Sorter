@@ -5,6 +5,10 @@
 #include <raylib.h>
 #include <deque>
 #include <raymath.h>
+#include "Game.h"
+
+
+#define RAYGUI_IMPLEMENTATION
 
 using namespace std;
 
@@ -21,7 +25,7 @@ bool EventTriggered(double interval)
 	return false;
 }
 
-class Textures {
+/*class Textures {
 public:
 	Texture2D boxr, boxb, boxg, plater, plateb, plateg, background, conveyor, loader;
 	Textures() {
@@ -36,9 +40,9 @@ public:
 		conveyor = LoadTexture(".\\conveyor.png");
 	}
 
-};
+};*/
 
-class Loaders : public Textures {
+/*class Loaders : public Textures {
 public:
 	float loaders_x;
 	float loaders_y;
@@ -74,9 +78,9 @@ public:
 		speed = 50;
 
 	}
-};
+};*/
 
-class Box : public Textures {
+/*class Box : public Textures {
 public:
 	int tmp;
 	int count = 0;
@@ -148,32 +152,32 @@ public:
 			return "gbox";
 		}
 	}
-};
+};*/
 
-class Background : public Textures {
+/*class Background : public Textures {
 public:
 	void Draw() {
 		DrawTexture(background, 0, 50, WHITE);
 	}
-};
+};*/
 
-class Plate : public Textures {
+/*class Plate : public Textures {
 public:
 	void Draw() {
 		DrawTexture(plater, 100, 450, WHITE);
 		DrawTexture(plateb, 350, 450, WHITE);
 		DrawTexture(plateg, 600, 450, WHITE);
 	}
-};
+};*/
 
-class Conveyor : public Textures {
+/*class Conveyor : public Textures {
 public:
 	void Draw() {
 		DrawTexture(conveyor, 0, 150, WHITE);
 	}
-};
+};*/
 
-class Game : public Box, public Loaders {
+/*class Game : public Box, public Loaders {
 public:
 	bool running = true;
 	Textures textures = Textures();
@@ -218,7 +222,7 @@ public:
 		box.Reset();
 		loaders.Reset();
 	}
-};
+};*/
 int main()
 {
 	Color Dark_Green = Color{ 20, 160, 133, 255 };

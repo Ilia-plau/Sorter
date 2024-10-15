@@ -49,7 +49,7 @@ int main()
 	InitWindow(800, 600, "raygui - controls test suite");
 	SetTargetFPS(60);
 
-	auto font = LoadFont("C:\\Users\\Academy\\Desktop\\Roboto-Bold.ttf");
+	auto font = LoadFont("C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\json\\Roboto-Bold.ttf");
 
 	GuiSetFont(font);
 

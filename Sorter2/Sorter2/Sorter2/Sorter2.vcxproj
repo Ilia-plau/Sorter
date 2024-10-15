@@ -127,7 +127,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="Conveyor.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Loaders.cpp" />
+    <ClCompile Include="Plate.cpp" />
     <ClCompile Include="Sorter2.cpp" />
+    <ClCompile Include="Textures.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="Conveyor.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Loaders.h" />
+    <ClInclude Include="Plate.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Textures.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sorter2.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

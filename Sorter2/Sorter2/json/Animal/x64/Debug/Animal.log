@@ -1,5 +1,7 @@
 ﻿  Animal.cpp
 C:\vcpkg\installed\x64-windows\include\raygui.h(2654,46): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-  Animal.vcxproj -> C:\Users\Academy\Desktop\json\Animal\x64\Debug\Animal.exe
+  (компиляция исходного файла "Animal.cpp")
+  
+  Animal.vcxproj -> C:\Users\user\Documents\GitHub\Sorter\Sorter2\Sorter2\json\x64\Debug\Animal.exe
   "pwsh.exe" не является внутренней или внешней
   командой, исполняемой программой или пакетным файлом.
