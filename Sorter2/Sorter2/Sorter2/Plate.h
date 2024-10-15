@@ -1,4 +1,5 @@
-#pragma once
+#ifndef PLATE_H
+#define PLATE_H
 
 #include <iostream>
 #include <raylib.h>
@@ -6,9 +7,10 @@
 
 using namespace std;
 
-class Plate
+class Plate : public Textures
 {
 public:
-	void Draw4() {};
+	void Draw4();
 };
 
+#endif	// !PLATE_H

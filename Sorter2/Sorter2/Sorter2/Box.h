@@ -1,4 +1,5 @@
-#pragma once
+#ifndef BOX_H
+#define BOX_H
 
 #include <iostream>
 #include <raylib.h>
@@ -10,7 +11,7 @@
 
 using namespace std;
 
-class Box
+class Box : public Loaders
 {
 public:
 	int tmp;
@@ -21,11 +22,10 @@ public:
 	int box_height = 50;
 	int speed = 50;
 	int c = 1;
-	Textures textures = Textures();
 
-	void Draw2() {};
-	void Update1() {};
-	void Reset1() {};
+	void Draw2();
+	void Update1();
+	void Reset1();
 	string GetRandomType() {
 		if (count == 0) {
 			tmp = GetRandomValue(1, 3);
@@ -42,3 +42,5 @@ public:
 		}
 	};
 };
+
+#endif

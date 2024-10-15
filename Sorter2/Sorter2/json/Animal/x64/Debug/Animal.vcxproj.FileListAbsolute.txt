@@ -1,3 +1,5 @@
 C:\Users\Academy\Desktop\json\Animal\Animal\x64\Debug\Animal.vcxproj.Up2Date
 C:\Users\user\Documents\GitHub\Sorter\Sorter2\Sorter2\json\Animal\x64\Debug\Animal.vcxproj.Up2Date
 C:\Users\user\Documents\GitHub\Sorter\Sorter2\Sorter2\json\Animal\x64\Debug\Animal.exe
+C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\json\Animal\x64\Debug\Animal.vcxproj.Up2Date
+C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\json\Animal\x64\Debug\Animal.exe

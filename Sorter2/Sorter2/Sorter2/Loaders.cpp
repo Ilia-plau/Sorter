@@ -2,9 +2,6 @@
 
 double lastUpdateTime1 = 0;
 
-Textures textures1 = Textures();
-//Box box2 = Box();
-Loaders loaders1 = Loaders();
 bool EventTriggered1(double interval)
 {
 	double currentTime = GetTime();
@@ -16,30 +13,30 @@ bool EventTriggered1(double interval)
 	return false;
 }
 
-void Draw5(){
-	DrawTexture(textures1.loader, loaders1.loaders_x, loaders1.loaders_y, WHITE);
+void Loaders::Draw5(){
+	DrawTexture(loader, loaders_x, loaders_y, WHITE);
 }
 
-void Update2() {
-	if (IsKeyDown(KEY_W) && EventTriggered1(0.15) && loaders1.loaders_y - 50 >= 25) {
-		loaders1.loaders_y -= loaders1.speed;
+void Loaders::Update2() {
+	if (IsKeyDown(KEY_W) && EventTriggered1(0.15) && loaders_y - 50 >= 25) {
+		loaders_y -= speed;
 	}
-	if (IsKeyDown(KEY_S) && EventTriggered1(0.15) && loaders1.loaders_y + 100 <= 700) {
-		loaders1.loaders_y += loaders1.speed;
+	if (IsKeyDown(KEY_S) && EventTriggered1(0.15) && loaders_y + 100 <= 700) {
+		loaders_y += speed;
 	}
-	if (IsKeyDown(KEY_A) && EventTriggered1(0.15) && loaders1.loaders_x >= 25) {
-		loaders1.loaders_x -= loaders1.speed;
+	if (IsKeyDown(KEY_A) && EventTriggered1(0.15) && loaders_x >= 25) {
+		loaders_x -= speed;
 	}
-	if (IsKeyDown(KEY_D) && EventTriggered1(0.15) && loaders1.loaders_x + 100 <= 850) {
-		loaders1.loaders_x += loaders1.speed;
+	if (IsKeyDown(KEY_D) && EventTriggered1(0.15) && loaders_x + 100 <= 850) {
+		loaders_x += speed;
 	}
-	if (loaders1.loaders_y == 150 && loaders1.loaders_x < 200) {
-		loaders1.loaders_x += 0.5;
+	if (loaders_y == 150 && loaders_x < 200) {
+		loaders_x += 0.5;
 	}
 }
 
-void Reset2() {
-	loaders1.loaders_x = GetScreenWidth() / 2 - 25;
-	loaders1.loaders_y = (GetScreenHeight() - 50) / 2 - 25;
-	loaders1.speed = 50;
+void Loaders::Reset2() {
+	loaders_x = GetScreenWidth() / 2 - 25;
+	loaders_y = (GetScreenHeight() - 50) / 2 - 25;
+	speed = 50;
 }

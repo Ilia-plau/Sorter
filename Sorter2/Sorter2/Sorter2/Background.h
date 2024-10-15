@@ -1,4 +1,5 @@
-#pragma once
+#ifndef BACKGROUND_H
+#define BACKGROUND_H
 
 #include <iostream>
 #include <raylib.h>
@@ -6,9 +7,13 @@
 
 using namespace std;
 
-class Background
+class Background : public Textures
 {
 public:
-	void Draw1() {};
+	void Draw1() {
+
+		DrawTexture(background, 0, 50, WHITE);
+	};
 };
 
+#endif

@@ -1,5 +1,5 @@
-#pragma once
-
+#ifndef LOADERS_H
+#define LOADERS_H
 
 #include <iostream>
 #include <raylib.h>
@@ -11,7 +11,7 @@
 
 using namespace std;
 
-class Loaders
+class Loaders: public Textures
 {
 public:
 	float loaders_x;
@@ -20,8 +20,9 @@ public:
 	int loaders_height = 50;
 	int speed = 50;
 
-	void Draw5() {};
-	void Update2() {};
-	void Reset2() {};
+	void Draw5();
+	void Update2();
+	void Reset2();
 };
 
+#endif

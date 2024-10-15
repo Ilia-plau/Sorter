@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Sorter\\json\\",
+  "WorkspaceRootPath": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\json\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8ADAB540-B1FF-4969-A868-E59480D2BBE8}|json\\json.vcxproj|C:\\Users\\user\\Desktop\\Sorter\\json\\json\\json.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8ADAB540-B1FF-4969-A868-E59480D2BBE8}|json\\json.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\json\\json\\json.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8ADAB540-B1FF-4969-A868-E59480D2BBE8}|json\\json.vcxproj|solutionrelative:json\\json.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -24,9 +24,9 @@
               "DocumentIndex": 1,
               "Title": "json_sax.hpp",
               "DocumentMoniker": "C:\\vcpkg\\installed\\x64-windows\\include\\nlohmann\\detail\\input\\json_sax.hpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\vcpkg\\installed\\x64-windows\\include\\nlohmann\\detail\\input\\json_sax.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\vcpkg\\installed\\x64-windows\\include\\nlohmann\\detail\\input\\json_sax.hpp",
               "ToolTip": "C:\\vcpkg\\installed\\x64-windows\\include\\nlohmann\\detail\\input\\json_sax.hpp",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\vcpkg\\installed\\x64-windows\\include\\nlohmann\\detail\\input\\json_sax.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\vcpkg\\installed\\x64-windows\\include\\nlohmann\\detail\\input\\json_sax.hpp",
               "ViewState": "AQIAAA4BAAAAAAAAAAAUwCEBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-01T14:07:57.255Z"
@@ -35,11 +35,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "json.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Sorter\\json\\json\\json.cpp",
+              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\json\\json\\json.cpp",
               "RelativeDocumentMoniker": "json\\json.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Sorter\\json\\json\\json.cpp",
+              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\json\\json\\json.cpp",
               "RelativeToolTip": "json\\json.cpp",
-              "ViewState": "AQIAAJwAAAAAAAAAAAAAAFkAAAAJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-24T14:46:50.474Z",
               "EditorCaption": ""

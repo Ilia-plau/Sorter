@@ -1,45 +1,36 @@
 #include "Game.h"
 
-//Textures textures0 = Textures();
-Loaders loaders0 = Loaders();
-Box box1 = Box();
-Plate plate0 = Plate();
-Conveyor conveyor0 = Conveyor();
-Background background1 = Background();
-Game game1 = Game();
-
-
-void Draw() {
-	background1.Draw1();
-	conveyor0.Draw3();
-	plate0.Draw4();
-	box1.Draw2();
-	loaders0.Draw5();
+void Game::Draw() {
+	Draw1();
+	Draw3();
+	Draw4();
+	Draw2();
+	Draw5();
 }
 
-void Score() {
-	if (box1.box_x >= 100 && box1.box_x <= 200 && box1.box_y >= 450 && box1.box_y <= 550 && box1.GetRandomType() == "rbox") {
-		game1.score++;
-		box1.Reset1();
+void Game::Score() {
+	if (box_x >= 100 && box_x <= 200 && box_y >= 450 && box_y <= 550 && GetRandomType() == "rbox") {
+		score++;
+		Reset1();
 	}
-	if (box1.box_x >= 350 && box1.box_x <= 450 && box1.box_y >= 450 && box1.box_y <= 550 && box1.GetRandomType() == "bbox") {
-		game1.score++;
-		box1.Reset1();
+	if (box_x >= 350 && box_x <= 450 && box_y >= 450 && box_y <= 550 && GetRandomType() == "bbox") {
+		score++;
+		Reset1();
 	}
-	if (box1.box_x >= 600 && box1.box_x <= 700 && box1.box_y >= 450 && box1.box_y <= 550 && box1.GetRandomType() == "gbox") {
-		game1.score++;
-		box1.Reset1();
+	if (box_x >= 600 && box_x <= 700 && box_y >= 450 && box_y <= 550 && GetRandomType() == "gbox") {
+		score++;
+		Reset1();
 	}
 }
 
-void Update() {
-	if (game1.running) {
-		box1.Update1();
-		loaders0.Update2();
+void Game::Update() {
+	if (running) {
+		Update1();
+		Update2();
 	}
 }
 
-void Reset() {
-	box1.Reset1();
-	loaders0.Reset2();
+void Game::Reset() {
+	Reset1();
+	Reset2();
 }

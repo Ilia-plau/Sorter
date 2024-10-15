@@ -1,7 +1,6 @@
 #include "Conveyor.h"
+#include "Textures.h"
 
-Textures textures3 = Textures();
-
-void Draw3() {
-	DrawTexture(textures3.conveyor, 0, 150, WHITE);
+void Conveyor::Draw3() {
+	DrawTexture(conveyor, 0, 150, WHITE);
 }
