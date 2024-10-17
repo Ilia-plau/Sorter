@@ -11,8 +11,7 @@
 
 using namespace std;
 
-class Box : public Loaders
-{
+class Box:public Textures{
 public:
 	int tmp;
 	int count = 0;
@@ -22,25 +21,12 @@ public:
 	int box_height = 50;
 	int speed = 50;
 	int c = 1;
+	Loaders loaders = Loaders();
 
 	void Draw2();
 	void Update1();
 	void Reset1();
-	string GetRandomType() {
-		if (count == 0) {
-			tmp = GetRandomValue(1, 3);
-			count += 1;
-		}
-		if (tmp == 1) {
-			return "rbox";
-		}
-		if (tmp == 2) {
-			return "bbox";
-		}
-		if (tmp == 3) {
-			return "gbox";
-		}
-	};
+	string GetRandomType();
 };
 
 #endif

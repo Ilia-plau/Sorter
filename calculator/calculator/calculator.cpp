@@ -46,22 +46,76 @@ public:
 		return counter;
 	}
 };
+template <typename T>
+class Queue {
+public:
+    Node<T>* head;
+    Node<T>* tail;
+
+    Queue() {
+        head = nullptr;
+        tail = nullptr;
+    }
+
+    void Enqueue(Node<T>* a) {
+        if (!tail) {
+            head = a;
+            tail = a;
+        }
+        else {
+            tail->next = a;
+            tail = a;
+        }
+    }
+
+    void Dequeue() {
+        if (!tail && !head) {
+            return;
+        }
+        Node<T>* a = head;
+        head = a->next;
+        if (!head) {
+            tail = nullptr;
+        }
+        delete a;
+    }
+
+    T Head() {
+        if (!head) return NULL;
+        return head->value;
+    }
+
+    T Tail() {
+        if (!tail) return NULL;
+        return tail->value;
+    }
+
+    int Size() {
+        int counter = 0;
+        Node<T>* p = head;
+
+        while (p) {
+            counter++;
+            p = p->next;
+        }
+        return counter;
+    }
+};
+
+template class Queue<int>;
 template class Stack<int>;
 int main()
 {
     setlocale(LC_ALL, "ru");
 
-    std::vector<char> openBracketKinds;
-    std::vector<char> closeBracketKinds;
-    openBracketKinds.push_back('(');
-    openBracketKinds.push_back('{');
-    openBracketKinds.push_back('[');
-    closeBracketKinds.push_back(')');
-    closeBracketKinds.push_back('}');
-    closeBracketKinds.push_back(']');
+    string brackets = "]{()}[{}[]]";
+    Queue<char> queue;
 
-    std::string brackets = "]{()}[{}[]]";
-    Stack<char> stack;
+    queue.Enqueue(0);
+    cout << queue.Size();
+    
+
+    /*Stack<char> stack;
     for (auto& item : brackets) {
         int openFound = -1;
         for (int i = 0; i < openBracketKinds.size(); i++) {
@@ -104,7 +158,24 @@ int main()
         }
     }
     cout << (stack.Size() == 0);
-    cout << '\n';
+    cout << '\n';*/
+    Node<int> b = 1, c = 2, d = 3;
+
+    Queue<int> a;
+    a.Enqueue(new Node<int>(b));
+    a.Enqueue(new Node<int>(c));
+    std::cout << a.Size() << std::endl;
+    a.Dequeue();
+    std::cout << a.Size() << std::endl;
+
+    a.Enqueue(new Node<int>(d));
+    std::cout << a.Tail() << std::endl;
+    std::cout << a.Head() << std::endl;
+
+    a.Dequeue();
+    a.Dequeue();
+    a.Dequeue();
+    std::cout << a.Size() << std::endl;
     return 0;
 }
 

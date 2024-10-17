@@ -27,22 +27,22 @@ void Box::Draw2(){
 }
 
 void Box::Update1() {
-	if ((2 * loaders_y + loaders_height) / 2 - 50 == (2 * box_y + box_height) / 2 && (2 * loaders_x + loaders_width) / 2 == (2 * box_x + box_width) / 2) {
+	if ((2 * loaders.loaders_y + loaders.loaders_height) / 2 - 50 == (2 * box_y + box_height) / 2 && (2 * loaders.loaders_x + loaders.loaders_width) / 2 == (2 * box_x + box_width) / 2) {
 		if (IsKeyDown(KEY_W) && EventTriggered2(0.15) && box_y - 100 >= 25) {
 			box_y -= speed;
 		}
 	}
-	if ((2 * loaders_y + loaders_height) / 2 + 50 == (2 * box_y + box_height) / 2 && (2 * loaders_x + loaders_width) / 2 == (2 * box_x + box_width) / 2) {
+	if ((2 * loaders.loaders_y + loaders.loaders_height) / 2 + 50 == (2 * box_y + box_height) / 2 && (2 * loaders.loaders_x + loaders.loaders_width) / 2 == (2 * box_x + box_width) / 2) {
 		if (IsKeyDown(KEY_S) && EventTriggered2(0.15) && box_y + 150 <= 700) {
 			box_y += speed;
 		}
 	}
-	if ((2 * loaders_y + loaders_height) / 2 == (2 * box_y + box_height) / 2 && (2 * loaders_x + loaders_width) / 2 - 50 == (2 * box_x + box_width) / 2) {
+	if ((2 * loaders.loaders_y + loaders.loaders_height) / 2 == (2 * box_y + box_height) / 2 && (2 * loaders.loaders_x + loaders.loaders_width) / 2 - 50 == (2 * box_x + box_width) / 2) {
 		if (IsKeyDown(KEY_A) && EventTriggered2(0.15) && box_x - 50 >= 25) {
 			box_x -= speed;
 		}
 	}
-	if ((2 * loaders_y + loaders_height) / 2 == (2 * box_y + box_height) / 2 && (2 * loaders_x + loaders_width) / 2 + 50 == (2 * box_x + box_width) / 2) {
+	if ((2 * loaders.loaders_y + loaders.loaders_height) / 2 == (2 * box_y + box_height) / 2 && (2 * loaders.loaders_x + loaders.loaders_width) / 2 + 50 == (2 * box_x + box_width) / 2) {
 		if (IsKeyDown(KEY_D) && EventTriggered2(0.15) && box_x + 150 <= 850) {
 			box_x += speed;
 		}
@@ -52,7 +52,21 @@ void Box::Update1() {
 	}
 
 }
-
+string Box::GetRandomType() {
+	if (count == 0) {
+		tmp = GetRandomValue(1, 3);
+		count += 1;
+	}
+	if (tmp == 1) {
+		return "rbox";
+	}
+	if (tmp == 2) {
+		return "bbox";
+	}
+	if (tmp == 3) {
+		return "gbox";
+	}
+};
 void Box::Reset1() {
 	box_x = 50;
 	box_y = 150;

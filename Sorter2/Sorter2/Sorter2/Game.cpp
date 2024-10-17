@@ -1,36 +1,36 @@
 #include "Game.h"
 
-void Game::Draw() {
-	Draw1();
-	Draw3();
-	Draw4();
-	Draw2();
-	Draw5();
-}
 
+void Game::Draw() {
+	background.Draw1();
+	conveyor.Draw3();
+	plate.Draw4();
+	box.Draw2();
+	loaders.Draw5();
+}
 void Game::Score() {
-	if (box_x >= 100 && box_x <= 200 && box_y >= 450 && box_y <= 550 && GetRandomType() == "rbox") {
+	if (box.box_x >= 100 && box.box_x <= 200 && box.box_y >= 450 && box.box_y <= 550 && box.GetRandomType() == "rbox") {
 		score++;
-		Reset1();
+		box.Reset1();
 	}
-	if (box_x >= 350 && box_x <= 450 && box_y >= 450 && box_y <= 550 && GetRandomType() == "bbox") {
+	if (box.box_x >= 350 && box.box_x <= 450 && box.box_y >= 450 && box.box_y <= 550 && box.GetRandomType() == "bbox") {
 		score++;
-		Reset1();
+		box.Reset1();
 	}
-	if (box_x >= 600 && box_x <= 700 && box_y >= 450 && box_y <= 550 && GetRandomType() == "gbox") {
+	if (box.box_x >= 600 && box.box_x <= 700 && box.box_y >= 450 && box.box_y <= 550 && box.GetRandomType() == "gbox") {
 		score++;
-		Reset1();
+		box.Reset1();
 	}
 }
 
 void Game::Update() {
 	if (running) {
-		Update1();
-		Update2();
+		box.Update1();
+		loaders.Update2();
 	}
 }
 
 void Game::Reset() {
-	Reset1();
-	Reset2();
+	box.Reset1();
+	loaders.Reset2();
 }

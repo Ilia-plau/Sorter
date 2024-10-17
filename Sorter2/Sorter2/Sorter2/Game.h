@@ -15,9 +15,15 @@
 
 using namespace std;
 
-class Game : public Box, public Loaders,public Plate,public Background,public Conveyor
+class Game
 {
 public:
+	Loaders loaders = Loaders();
+	Box box = Box();
+	Conveyor conveyor = Conveyor();
+	Plate plate = Plate();
+	Background background = Background();
+
 	bool running = true;
 	int score = 0;
 
