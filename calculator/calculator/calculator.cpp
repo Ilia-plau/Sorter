@@ -7,14 +7,23 @@
 
 using namespace std;
 
-template <typename T>
+
+
+template<typename T>
+
 class Node {
 public:
 	T value;
 	Node* next;
+	Node* previous;
+	int index;
+
 	Node(T _value) : value(_value) {}
 };
+
 template class Node<int>;
+
+
 template <typename T>
 class Stack{
 public:
@@ -102,8 +111,136 @@ public:
     }
 };
 
-template class Queue<int>;
 template class Stack<int>;
+
+template <typename T>
+class List{
+public:
+	Node<T>* head;
+	Node<T>* tail;
+
+	List() {
+		head = nullptr;
+		tail = nullptr;
+	}
+
+	void push_back(Node<T>* a) {
+		if (!tail && !head) {
+			head = a;
+			tail = a;
+		}
+		else {
+			tail->next = a;
+			tail = a;
+		}
+	}
+	void push_front(Node<T>* a) {
+		if (!tail && !head) {
+			head = a;
+			tail = a;
+		}
+		else {
+			tail->next = a;
+			tail = a;
+		}
+	}
+
+	void pop_back() {
+		if (!tail && !head) {
+			return;
+		}
+		Node<T>* a = head;
+		head = a->next;
+		if (!head) {
+			tail = nullptr;
+		}
+		delete a;
+	}
+
+	void pop_front() {
+		if (!tail && !head) {
+			return;
+		}
+		Node<T>* a = tail;
+		tail = a->next;
+		if (!tail) {
+			head = nullptr;
+		}
+		delete a;
+	}
+
+	T At(int index) {
+		int count = 0;
+		Node<T>* p = head;
+
+		while (p && count != index) {
+			count++;
+			p = p->next;
+		}
+
+		if (!p) return nullptr;
+		return p->value;
+	}
+
+	int Find(T value) {
+		int count = 0;
+		Node<T>* p = head;
+
+		while (p->value != value && p) {
+			count++;
+			p = p->next;
+		}
+
+		if (!p) return nullptr;
+		return count;
+	}
+
+	void Add(T data, int index) {
+		int count = 0;
+		Node<T>* p = head;
+		while (p && count != index - 1) {
+			p = p->next;
+			count++;
+		}
+		Node<T>* a = new Node<T>(data);
+		a->next = p->next;
+		p->next = a;
+	}
+
+	void Remove(int index) {
+		int count = 0;
+		Node<T>* p = head;
+		while (p && count != index - 1) {
+			p = p->next;
+			count++;
+		}
+		p->next = p->next->next;
+	}
+
+	T Head() {
+		if (!head) return NULL;
+		return head->value;
+	}
+
+	T Tail() {
+		if (!tail) return NULL;
+		return tail->value;
+	}
+
+	int Size() {
+		int counter = 0;
+		Node<T>* p = head;
+
+		while (p) {
+			counter++;
+			p = p->next;
+		}
+		return counter;
+	}
+};
+//template class Queue<int>;
+
+
 int main()
 {
     setlocale(LC_ALL, "ru");
@@ -159,7 +296,7 @@ int main()
     }
     cout << (stack.Size() == 0);
     cout << '\n';*/
-    Node<int> b = 1, c = 2, d = 3;
+    /*Node<int> b = 1, c = 2, d = 3;
 
     Queue<int> a;
     a.Enqueue(new Node<int>(b));
@@ -175,7 +312,41 @@ int main()
     a.Dequeue();
     a.Dequeue();
     a.Dequeue();
-    std::cout << a.Size() << std::endl;
+    std::cout << a.Size() << std::endl;*/
+
+	Node<int> a{ 1 }, b{ 2 }, c{ 3 };
+
+	List<int> list;
+	list.push_front(new Node<int>(a));
+	list.push_back(new Node<int>(b));
+	std::cout << list.Size() << std::endl;
+
+	list.pop_back();
+	std::cout << list.Size() << std::endl;
+
+	list.pop_back();
+	std::cout << list.Size() << std::endl;
+
+	list.pop_back();
+	std::cout << list.Size() << std::endl;
+
+	list.push_front(new Node<int>(a));
+	list.push_back(new Node<int>(b));
+	list.push_back(new Node<int>(c));
+	std::cout << list.Size() << std::endl;
+
+	list.Add(b.value, 1);
+	std::cout << list.Size() << std::endl;
+
+	list.Remove(1);
+	std::cout << list.Size() << std::endl;
+	list.Remove(1);
+	std::cout << list.Size() << std::endl;
+	list.Remove(1);
+	std::cout << list.Size() << std::endl;
+	list.Remove(1);
+	std::cout << list.Size() << std::endl;
+
     return 0;
 }
 

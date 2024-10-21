@@ -1,19 +1,11 @@
 ﻿  Box.cpp
-C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(19,28): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(19,21): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(22,28): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(22,21): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(25,26): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(25,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-  Game.cpp
-  Sorter2.cpp
-C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Sorter2.cpp(231,26): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
-C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Sorter2.cpp(231,13): warning C4244: аргумент: преобразование "const float" в "int", возможна потеря данных
-C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Sorter2.cpp(243,49): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Sorter2.cpp(243,42): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Sorter2.cpp(244,44): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-  Создание кода...
-C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(69,1): warning C4715: Box::GetRandomType: значение возвращается не при всех путях выполнения
-  Sorter2.vcxproj -> C:\Users\Academy\Documents\GitHub\Sorter\Sorter2\Sorter2\x64\Debug\Sorter2.exe
+C:\Users\user\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(19,28): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(19,21): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(22,28): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(22,21): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(25,26): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(25,20): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\Documents\GitHub\Sorter\Sorter2\Sorter2\Sorter2\Box.cpp(72,1): warning C4715: Box::GetRandomType: значение возвращается не при всех путях выполнения
+  Sorter2.vcxproj -> C:\Users\user\Documents\GitHub\Sorter\Sorter2\Sorter2\x64\Debug\Sorter2.exe
   "pwsh.exe" не является внутренней или внешней
   командой, исполняемой программой или пакетным файлом.

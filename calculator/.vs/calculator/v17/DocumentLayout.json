@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\calculator\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\calculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A88933A5-2701-4C5C-819F-F0FF609B3B19}|calculator\\calculator.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\calculator\\calculator\\calculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A88933A5-2701-4C5C-819F-F0FF609B3B19}|calculator\\calculator.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\calculator\\calculator\\calculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A88933A5-2701-4C5C-819F-F0FF609B3B19}|calculator\\calculator.vcxproj|solutionrelative:calculator\\calculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "calculator.cpp",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\calculator\\calculator\\calculator.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\calculator\\calculator\\calculator.cpp",
               "RelativeDocumentMoniker": "calculator\\calculator.cpp",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\calculator\\calculator\\calculator.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\calculator\\calculator\\calculator.cpp",
               "RelativeToolTip": "calculator\\calculator.cpp",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAmwGYAAAACAAAA",
+              "ViewState": "AQIAALcAAAAAAAAAAAApwNgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-15T13:31:11.324Z",
               "EditorCaption": ""

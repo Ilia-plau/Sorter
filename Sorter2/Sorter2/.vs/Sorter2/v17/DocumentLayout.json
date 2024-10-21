@@ -1,66 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Box.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Box.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Box.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Box.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Box.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Box.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Textures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Textures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Loaders.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Loaders.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Loaders.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Loaders.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Plate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Plate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Conveyor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Conveyor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Sorter2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Sorter2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Sorter2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Background.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Background.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Background.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Background.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Loaders.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Loaders.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Textures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Textures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Textures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Loaders.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Loaders.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Textures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Textures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Plate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Plate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Conveyor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Background.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Background.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Background.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Background.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Conveyor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Conveyor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Plate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Plate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Conveyor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Conveyor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Plate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD71AC4D-B5E9-45A8-993D-72AC0E1EA505}|Sorter2\\Sorter2.vcxproj|solutionrelative:Sorter2\\Plate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,13 +74,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Sorter2.cpp",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Sorter2.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Sorter2.cpp",
               "RelativeDocumentMoniker": "Sorter2\\Sorter2.cpp",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Sorter2.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Sorter2.cpp",
               "RelativeToolTip": "Sorter2\\Sorter2.cpp",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAABcAAAACAAAA",
+              "ViewState": "AQIAANwAAAAAAAAAAADwv1wAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-05T19:37:38.826Z",
               "IsPinned": true,
@@ -88,49 +88,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Plate.h",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Plate.h",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Plate.h",
               "RelativeDocumentMoniker": "Sorter2\\Plate.h",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Plate.h",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Plate.h",
               "RelativeToolTip": "Sorter2\\Plate.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-12T16:39:06.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T16:39:06.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Conveyor.h",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Conveyor.h",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Conveyor.h",
               "RelativeDocumentMoniker": "Sorter2\\Conveyor.h",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Conveyor.h",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Conveyor.h",
               "RelativeToolTip": "Sorter2\\Conveyor.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-12T16:40:47.866Z",
+              "WhenOpened": "2024-10-12T16:40:47.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Conveyor.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Conveyor.cpp",
+              "RelativeDocumentMoniker": "Sorter2\\Conveyor.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Conveyor.cpp",
+              "RelativeToolTip": "Sorter2\\Conveyor.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-12T16:41:17.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Conveyor.cpp",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Conveyor.cpp",
-              "RelativeDocumentMoniker": "Sorter2\\Conveyor.cpp",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Conveyor.cpp",
-              "RelativeToolTip": "Sorter2\\Conveyor.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-12T16:41:17.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "Plate.cpp",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Plate.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Plate.cpp",
               "RelativeDocumentMoniker": "Sorter2\\Plate.cpp",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Plate.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Plate.cpp",
               "RelativeToolTip": "Sorter2\\Plate.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -140,9 +139,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Background.h",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Background.h",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Background.h",
               "RelativeDocumentMoniker": "Sorter2\\Background.h",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Background.h",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Background.h",
               "RelativeToolTip": "Sorter2\\Background.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -151,23 +150,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "Background.cpp",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Background.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Background.cpp",
               "RelativeDocumentMoniker": "Sorter2\\Background.cpp",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Background.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Background.cpp",
               "RelativeToolTip": "Sorter2\\Background.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-12T16:30:51.807Z"
+              "WhenOpened": "2024-10-12T16:30:51.807Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Game.h",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Game.h",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Game.h",
               "RelativeDocumentMoniker": "Sorter2\\Game.h",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Game.h",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Game.h",
               "RelativeToolTip": "Sorter2\\Game.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -176,50 +176,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Game.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Game.cpp",
               "RelativeDocumentMoniker": "Sorter2\\Game.cpp",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Game.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Game.cpp",
               "RelativeToolTip": "Sorter2\\Game.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-12T16:27:29.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Loaders.cpp",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Loaders.cpp",
-              "RelativeDocumentMoniker": "Sorter2\\Loaders.cpp",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Loaders.cpp",
-              "RelativeToolTip": "Sorter2\\Loaders.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-12T16:22:42.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Loaders.h",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Loaders.h",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Loaders.h",
               "RelativeDocumentMoniker": "Sorter2\\Loaders.h",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Loaders.h",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Loaders.h",
               "RelativeToolTip": "Sorter2\\Loaders.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-12T16:22:18.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "Loaders.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Loaders.cpp",
+              "RelativeDocumentMoniker": "Sorter2\\Loaders.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Loaders.cpp",
+              "RelativeToolTip": "Sorter2\\Loaders.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-12T16:22:42.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Textures.h",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Textures.h",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Textures.h",
               "RelativeDocumentMoniker": "Sorter2\\Textures.h",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Textures.h",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Textures.h",
               "RelativeToolTip": "Sorter2\\Textures.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -230,11 +230,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Box.h",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Box.h",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Box.h",
               "RelativeDocumentMoniker": "Sorter2\\Box.h",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Box.h",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Box.h",
               "RelativeToolTip": "Sorter2\\Box.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-12T15:57:21.317Z",
               "EditorCaption": ""
@@ -243,26 +243,27 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Box.cpp",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Box.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Box.cpp",
               "RelativeDocumentMoniker": "Sorter2\\Box.cpp",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Box.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Box.cpp",
               "RelativeToolTip": "Sorter2\\Box.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABEAAAAhAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-12T15:58:00.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "Textures.cpp",
-              "DocumentMoniker": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Textures.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Textures.cpp",
               "RelativeDocumentMoniker": "Sorter2\\Textures.cpp",
-              "ToolTip": "C:\\Users\\Academy\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Textures.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Sorter\\Sorter2\\Sorter2\\Sorter2\\Textures.cpp",
               "RelativeToolTip": "Sorter2\\Textures.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-15T14:38:37.337Z"
+              "WhenOpened": "2024-10-15T14:38:37.337Z",
+              "EditorCaption": ""
             }
           ]
         }

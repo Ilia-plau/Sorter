@@ -25,8 +25,13 @@ void Game::Score() {
 
 void Game::Update() {
 	if (running) {
-		box.Update1();
+		box.Update1(loaders.loaders_y,loaders.loaders_x,loaders.loaders_height,loaders.loaders_width);
+		cout << "loaders:" << loaders.loaders_x << " " << loaders.loaders_y << endl;
 		loaders.Update2();
+	}
+	if (IsKeyDown(KEY_TAB)&& loaders.EventTriggered1(0.15)) {
+		cout << "y: " << (2 * loaders.loaders_y + loaders.loaders_height) / 2 << "==" << (2 * box.box_y + box.box_height) / 2 << endl;
+		cout << "x: " << (2 * loaders.loaders_x + loaders.loaders_width) / 2 << "==" << (2 * box.box_x + box.box_width) / 2 << endl;
 	}
 }
 

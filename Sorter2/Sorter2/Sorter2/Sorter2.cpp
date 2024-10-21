@@ -8,6 +8,7 @@
 #include "Game.h"
 
 
+
 #define RAYGUI_IMPLEMENTATION
 
 using namespace std;
@@ -24,8 +25,8 @@ bool EventTriggered(double interval)
 	}
 	return false;
 }
-
-/*class Textures {
+/*
+class Textures {
 public:
 	Texture2D boxr, boxb, boxg, plater, plateb, plateg, background, conveyor, loader;
 	Textures() {
@@ -40,9 +41,9 @@ public:
 		conveyor = LoadTexture(".\\conveyor.png");
 	}
 
-};*/
+};
 
-/*class Loaders : public Textures {
+class Loaders : public Textures {
 public:
 	float loaders_x;
 	float loaders_y;
@@ -54,7 +55,7 @@ public:
 		DrawTexture(loader, loaders_x, loaders_y, WHITE);
 	}
 
-	void Update(float box_x, float box_y, float box_width, float box_height) {
+	void Update() {
 		if (IsKeyDown(KEY_W) && EventTriggered(0.15) && loaders_y - 50 >= 25) {
 			loaders_y -= speed;
 		}
@@ -78,9 +79,9 @@ public:
 		speed = 50;
 
 	}
-};*/
+};
 
-/*class Box : public Textures {
+class Box : public Textures {
 public:
 	int tmp;
 	int count = 0;
@@ -152,32 +153,32 @@ public:
 			return "gbox";
 		}
 	}
-};*/
+};
 
-/*class Background : public Textures {
+class Background : public Textures {
 public:
 	void Draw() {
 		DrawTexture(background, 0, 50, WHITE);
 	}
-};*/
+};
 
-/*class Plate : public Textures {
+class Plate : public Textures {
 public:
 	void Draw() {
 		DrawTexture(plater, 100, 450, WHITE);
 		DrawTexture(plateb, 350, 450, WHITE);
 		DrawTexture(plateg, 600, 450, WHITE);
 	}
-};*/
+};
 
-/*class Conveyor : public Textures {
+class Conveyor : public Textures {
 public:
 	void Draw() {
 		DrawTexture(conveyor, 0, 150, WHITE);
 	}
-};*/
+};
 
-/*class Game : public Box, public Loaders {
+class Game : public Box, public Loaders {
 public:
 	bool running = true;
 	Textures textures = Textures();
@@ -214,7 +215,7 @@ public:
 	void Update() {
 		if (running) {
 			box.Update(loaders.loaders_x, loaders.loaders_y, loaders.loaders_height, loaders.loaders_width);
-			loaders.Update(box.box_x, box.box_y, box.box_width, box.box_height);
+			loaders.Update();
 		}
 	}
 
@@ -236,9 +237,9 @@ int main()
 	while (WindowShouldClose() == false)
 	{
 
-		game.Update();
 		game.Score();
 		game.Draw();
+		game.Update();
 
 		DrawText(TextFormat("%i", game.score), 162.5, 12.5, 30, BLACK);
 		DrawText(TextFormat("%s", "score:"), 55, 12.5, 30, BLACK);

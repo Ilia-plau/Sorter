@@ -1,8 +1,8 @@
 #include "Loaders.h"
 
-double lastUpdateTime1 = 0;
 
-bool EventTriggered1(double interval)
+
+bool Loaders::EventTriggered1(double interval)
 {
 	double currentTime = GetTime();
 	if (currentTime - lastUpdateTime1 >= interval)
@@ -20,12 +20,14 @@ void Loaders::Draw5(){
 void Loaders::Update2() {
 	if (IsKeyDown(KEY_W) && EventTriggered1(0.15) && loaders_y - 50 >= 25) {
 		loaders_y -= speed;
+		//cout << "loaders:" << loaders_x << " " << loaders_y << endl;
 	}
 	if (IsKeyDown(KEY_S) && EventTriggered1(0.15) && loaders_y + 100 <= 700) {
 		loaders_y += speed;
 	}
 	if (IsKeyDown(KEY_A) && EventTriggered1(0.15) && loaders_x >= 25) {
 		loaders_x -= speed;
+		//cout <<"loaders:" << loaders_x << " " << loaders_y << endl;
 	}
 	if (IsKeyDown(KEY_D) && EventTriggered1(0.15) && loaders_x + 100 <= 850) {
 		loaders_x += speed;

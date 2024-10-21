@@ -17,14 +17,14 @@ public:
 	int count = 0;
 	float box_x;
 	float box_y;
-	int box_width = 50;
-	int box_height = 50;
-	int speed = 50;
+	float box_width;
+	float box_height;
+	float speed = 50;
 	int c = 1;
 	Loaders loaders = Loaders();
 
 	void Draw2();
-	void Update1();
+	void Update1(float loaders_y, float loaders_x, float loaders_height, float loaders_width);
 	void Reset1();
 	string GetRandomType();
 };
