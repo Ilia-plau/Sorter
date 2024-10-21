@@ -25,12 +25,14 @@ public:
 	Background background = Background();
 
 	bool running = true;
+	int c = 0;
 	int score = 0;
 
 	void Draw();
 	void Score();
 	void Update();
 	void Reset();
+	void Stop();
 };
 
 #endif

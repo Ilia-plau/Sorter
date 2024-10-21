@@ -240,6 +240,7 @@ int main()
 		game.Score();
 		game.Draw();
 		game.Update();
+		game.Stop();
 
 		DrawText(TextFormat("%i", game.score), 162.5, 12.5, 30, BLACK);
 		DrawText(TextFormat("%s", "score:"), 55, 12.5, 30, BLACK);
