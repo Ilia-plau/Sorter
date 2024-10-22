@@ -8,7 +8,7 @@
 using namespace std;
 
 
-
+/*22,10,2024
 template<typename T>
 
 class Node {
@@ -112,7 +112,6 @@ public:
 };
 
 template class Stack<int>;
-
 template <typename T>
 class List{
 public:
@@ -269,50 +268,50 @@ int main()
                 break;
             }
             int closeFound = -1;
-            for (int i = 0; i < closeBracketKinds.size(); i++) {
-                if (item == closeBracketKinds[i]) {
-                    closeFound = i;
-                    break;
-                }
-            }
-            if (closeFound != -1) {
-                char top = stack.Peek();
-                int matchFound = -1;
-                for (int i = 0; i < openBracketKinds.size(); i++) {
-                    if (top == openBracketKinds[i]) {
-                        matchFound = i;
-                        break;
-                    }
-                }
-                if (matchFound != -1 && matchFound == closeFound) {
+			for (int i = 0; i < closeBracketKinds.size(); i++) {
+				if (item == closeBracketKinds[i]) {
+					closeFound = i;
+					break;
+				}
+			}
+			if (closeFound != -1) {
+				char top = stack.Peek();
+				int matchFound = -1;
+				for (int i = 0; i < openBracketKinds.size(); i++) {
+					if (top == openBracketKinds[i]) {
+						matchFound = i;
+						break;
+					}
+				}
+				if (matchFound != -1 && matchFound == closeFound) {
 
-                    stack.Pop();
-                }
-                else {
-                    break;
-                }
-            }
-        }
-    }
-    cout << (stack.Size() == 0);
-    cout << '\n';*/
-    /*Node<int> b = 1, c = 2, d = 3;
+					stack.Pop();
+				}
+				else {
+					break;
+				}
+			}
+		}
+	}
+	cout << (stack.Size() == 0);
+	cout << '\n';*/
+	/*Node<int> b = 1, c = 2, d = 3;
 
-    Queue<int> a;
-    a.Enqueue(new Node<int>(b));
-    a.Enqueue(new Node<int>(c));
-    std::cout << a.Size() << std::endl;
-    a.Dequeue();
-    std::cout << a.Size() << std::endl;
+	Queue<int> a;
+	a.Enqueue(new Node<int>(b));
+	a.Enqueue(new Node<int>(c));
+	std::cout << a.Size() << std::endl;
+	a.Dequeue();
+	std::cout << a.Size() << std::endl;
 
-    a.Enqueue(new Node<int>(d));
-    std::cout << a.Tail() << std::endl;
-    std::cout << a.Head() << std::endl;
+	a.Enqueue(new Node<int>(d));
+	std::cout << a.Tail() << std::endl;
+	std::cout << a.Head() << std::endl;
 
-    a.Dequeue();
-    a.Dequeue();
-    a.Dequeue();
-    std::cout << a.Size() << std::endl;*/
+	a.Dequeue();
+	a.Dequeue();
+	a.Dequeue();
+	std::cout << a.Size() << std::endl;
 
 	Node<int> a{ 1 }, b{ 2 }, c{ 3 };
 
@@ -347,7 +346,54 @@ int main()
 	list.Remove(1);
 	std::cout << list.Size() << std::endl;
 
-    return 0;
+	return 0;
+}*/
+
+class Shape {
+protected:
+	double _a;
+	double _b;
+	char _color;
+	float area;
+public:
+	virtual float calculateArea() { return 0; }
+	Shape(float a, float b) : _a(a), _b(b) {}
+};
+class Rectangle : public Shape {
+public:
+	Rectangle(float a, float b) : Shape(a, b) {}
+	float calculateArea() override {
+		return _a * _b;
+	}
+};
+class  Circle : public Shape {
+public:
+	Circle(float a  , float  b = 3.14) : Shape(a, b) {}
+	float calculateArea()override {
+		return _a * _a *_b;
+	}
+};
+
+
+class BankAccount {
+private:
+	int accountnumbers;
+	float balance;
+	char accountholder;
+public:
+};
+int main()
+{
+	setlocale(LC_ALL, "ru");
+
+	Rectangle re(5, 10);
+	Circle c(5);
+
+	cout << re.calculateArea() << endl;
+	cout << c.calculateArea() << endl;
+	
+
+	return 0;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

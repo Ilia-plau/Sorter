@@ -1,4 +1,6 @@
 ﻿  calculator.cpp
-  calculator.vcxproj -> C:\Users\user\Documents\GitHub\Sorter\calculator\x64\Debug\calculator.exe
+C:\Users\Academy\Documents\GitHub\Sorter\calculator\calculator\calculator.cpp(366,13): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\Academy\Documents\GitHub\Sorter\calculator\calculator\calculator.cpp(373,18): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  calculator.vcxproj -> C:\Users\Academy\Documents\GitHub\Sorter\calculator\x64\Debug\calculator.exe
   "pwsh.exe" не является внутренней или внешней
   командой, исполняемой программой или пакетным файлом.
